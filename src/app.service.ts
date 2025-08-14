@@ -1,7 +1,6 @@
 import { Injectable, HttpException, HttpStatus } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import axios from 'axios';
-import { WeatherResponse } from './interfaces/weather-response.interface'; 
 
 @Injectable()
 export class AppService {
